@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+
+
+
+:root {
+    /* COLORS */
+    --color-rose-800: #7A284E;
+    --color-rose-50: #FFF7FB;
+
+    --color-stone-900: #312E2C;
+    --color-stone-600: #5F564D;
+    --color-stone-150: #E3DDD7;
+    --color-stone-100: #F3E5D7;
+
+    --color-brown-800: #854632;
+
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    /* FONTS */
+    @font-face {
+        font-family: face;
+        src: url();
+    }
+
+
+}
